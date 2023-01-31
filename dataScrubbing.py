@@ -1,7 +1,6 @@
 # Some of these comments are sorta lengthy, but they explain what 
 # this does effectively. Read them before changing anything.
 
-list_named = [1, 2, 1, 2, 3, 1, 4, 5, 6, 7, 2, 8, 2, 9, 10, 2] #first test list, checking if variables as lists work
 def clean_up_data(data_list, value):
     fstlstitm = 0 #first list item, increments each time the first list item is found
     iterations = 0 #iterations of the while loop, making sure it doesnt scan data_list[10] when it only goes to 9
@@ -28,3 +27,13 @@ def clean_up_data(data_list, value):
             fstlstitm +=1 #increments each time the first list item is found
         iterations +=1  #increment the iterations to ensure it doesnt search for list items higher than the # of items in the list
     print("first item is " + str(data_list[0]) + ", appears " + str(fstlstitm) + " times") #call for first list item variable
+
+# Enter your function calls here:
+
+list_example_1 = [1,2,3,2,4,5,2,6,7,2,8,9,10,] #List test cases
+list_example_2 = [1,2,3,2,4,5,2,6,7,2,8,9,10,]
+list_example_3 = [1,2,3,2,4,5,2,6,7,2,8,9,10,]
+
+clean_up_data(list_example_1, 2) #Function calls
+clean_up_data(list_example_2, 2)
+clean_up_data(list_example_3, 2)
