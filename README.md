@@ -6,6 +6,8 @@
 
 3. unzip and go to the dataScrubbing.py file in the folder
 
+4. Copy text and paste it into CodeHS
+
 
 
 # What is this project?
